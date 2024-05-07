@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+  overflow: hidden; 
+  background-color: #EAEDED;
+}
+
+.white-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: sans-serif;
+}
+
+.menu-principal {
+  list-style: none;
+  height: 32px;
+  margin: 10px;
+  text-align: right;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+.menu-principal li {
+  display: inline;
+  margin-right: 40px;
+}
+nav {
+	display:block;
+	margin: 0 auto 20px;
+	border: 1px solid #8a91ba;
+	position: relative;
+	font: 16px Tahoma, sans-serif;
+    text-align:center;
+    height: 45px;
+    font-size: 20px;
+  font-family: "EB Garamond", serif;
+}
+
+nav ul {
+	padding:0;
+	margin: 0;
+    display:inline-block;
+    text-align: center;
+}
+
+nav ul:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+nav li {
+	position: relative;
+	float: left;
+	list-style-type: none;
+}
+
+nav li a{
+	display:block;
+	padding: 10px 10px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+  transition:  0.5s;
+}
+a:hover {
+ background-color:  #e7e7e7;
+  border-radius: 20px;
+}
+a:hover { 
+  color: #8a91ba; 
+} 
+nav li a:focus{
+	outline: none;
+	text-decoration: underline;
+  color: #3b6a91;
+}
+
+nav li:firt-child a{
+	border-left: none;
+}
+
+nav li.ultimo a {
+	border-right: none;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav a span { 
+    display: block; 
+    float: right; 
+    margin-left: 5px; 
+}
+
+nav ul ul li { 
+    float: none; 
+}
+nav ul ul a { 
+    padding: 5px 10px; 
+    border-left: none; 
+    border-right: none; 
+    font-size: 14px; 
+}
+nav { 
+  padding-left: 20px;
+    border-radius:4px;
+    border-bottom-left-radius:15px; 
+    border-bottom-right-radius:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color:  #8a91ba; 
+}
+
+nav li:hover { 
+    background-color: #8a91ba;
+}
+.menu-principal a {
+  text-decoration: lavender;
+  color: rgb(0, 0, 0);
+}
+.menu-principal li:hover .sub-menu {
+  display: block;
+}
+h1{
+    display: inline-block;
+    padding: 5px;
+  }
+  .tit1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+  .tit2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #8a91ba;
+    font-size: 2.5rem;
+  }
+  .formulario {
+    position: absolute;
+    top: 300px;
+    left: 46%;
+    height: 70%;
+    transform: translate(-45%, -25%);
+    width: 70%;
+    padding: 10px;
+   
+}
+
+.formulario .campo {
+    margin-top: 20%;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+  }
+.formulario label {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.formulario textarea {
+    width: 100%;
+    font-size: 16px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+   margin-top: 20px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #3b6a91;
+  
+
+}
+
+button{
+width: 60px;
+height: 45px;
+border-color: #8a91ba ;
+background-color: #8a91ba;
+border-top-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+}
+
+
+#searchHistory {
+	width: 100%;
+	height: 400px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+margin-bottom: 30px;
+	overflow-y: auto;
+  border: solid #8a91ba 5px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#searchHistory::before {
+	content: "";
+	display: block;
+	font-weight: bolder;
+	margin-bottom: 5px;
+  font-size: 16px;
+}
+
+#textarea {
+	width: 100%;
+	height: 100px;
+	padding: 0px;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+}
+
+#clear {
+	padding: 5px;
+	background-color: lightgray;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#clear:hover {
+	background-color: gray;
+}
+
+input{
+  padding-top: 20px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

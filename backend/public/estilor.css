@@ -1,0 +1,54 @@
+body{
+    text-align: left;
+background-color: #f0f2ff;
+}
+.titulo{
+        display: flex;
+        align-items: center;
+        background-color: #8a91ba;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+}
+.volver{
+    padding-left: 30%;
+    }
+h1{
+    color: black;
+    font-style: unset;
+    text-align: center;
+}
+h2{
+    list-style: none;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    background-color: #8a91ba;
+  }
+.info{
+    width: 50%;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue
+}
+p, ul{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.pie{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #686868;
+}
+footer{
+    left: 50%;
+    transform: translate(0, -50%);
+}
